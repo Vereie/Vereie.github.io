@@ -25,8 +25,8 @@ p {
     top: 2vh;
     margin-left: auto;
     margin-right: auto;
-    color: black;
-    text-shadow: 0.5px 0.5px blue;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px blue;
 }
 
 /*Navigation Bar Start*/
