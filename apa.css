@@ -1,34 +1,6 @@
-body {
-    display: block;
-    overflow-y: auto;
-    overflow-x: hidden;
-    height: 100vh;
+body{
     background-color: rgb(25, 25, 25);
-}   
-box {
-    display: block;
-    width: 75vw;
-    height: 75vh;
-    background-color: rgba(211, 211, 211, 0.185);
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10vh;
-    border-radius: 10px;
-    border-color: blue;
-    border-style: solid;
-    border-width: 2px;
 }
-p {
-    text-align: center;
-    position: relative;
-    font-size: 16px;
-    top: 2vh;
-    margin-left: auto;
-    margin-right: auto;
-    color: rgb(255, 255, 255);
-    text-shadow: 1px 1px blue;
-}
-
 /*Navigation Bar Start*/
 .topnav {
     background-color: rgb(51, 51, 51);
@@ -56,3 +28,99 @@ p {
     text-decoration: none;
     font-size: 17px;
 }
+/*Navigation Bar End*/
+  h1{
+      font-size: 50px;
+      font-family: "Times New Roman";
+  }
+
+  h2{
+      font-size: 35px;
+      font-family: "Times New Roman";
+  }
+
+  h3{
+      font-size: 28px;
+      font-family: "Times New Roman";
+  }
+
+  h4{
+      font-size: 20px;
+      font-family: "Times New Roman";
+  }
+
+  p{
+      font-family: "Times New Roman";
+  }
+
+
+  figcaption{
+      text-align: center;
+      font-family: "Times New Roman";
+      font-size: 12px;
+  }
+
+  .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .essay{
+      text-indent: 50px;
+      line-height: 2;
+      margin-right: 25%;
+      margin-left: 25%;
+      color: white;
+      text-shadow: 1px 1px blue;
+  }
+
+  .generalText{
+      margin-left:10%;
+      margin-right:10%;
+  }
+
+  .generalHeader{
+      margin-left: 10%;
+      
+  }
+
+  .essayHeader{
+      margin-left: 25%;
+  }
+
+  .cited{
+      text-align: center;
+      
+      
+  }
+
+  .bottom{
+      position: fixed;
+      bottom: -16px;
+      text-align: right;
+      height: 30px;
+      width: 97%;
+      background-color: rgb(25, 25, 25);	    
+  }
+
+  .hanging{
+      padding: 10px;
+      padding-left: 64px;
+      text-indent: -60px;
+      margin-left: 25%;
+      margin-right: 25%;
+      line-height: 2;
+      
+  }
+
+  .centertxt{
+      text-align:center;
+  }
+
+  
+      
+  
+  
+      
+
