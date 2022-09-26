@@ -30,6 +30,7 @@ body{
 }
 /*Navigation Bar End*/
   h1{
+    text-align: center;
       font-size: 50px;
       font-family: "Times New Roman";
   }
@@ -52,14 +53,6 @@ body{
   p{
       font-family: "Times New Roman";
   }
-
-
-  figcaption{
-      text-align: center;
-      font-family: "Times New Roman";
-      font-size: 12px;
-  }
-
   .center {
       display: block;
       margin-left: auto;
@@ -74,53 +67,16 @@ body{
       color: white;
       text-shadow: 1px 1px blue;
   }
-
-  .generalText{
-      margin-left:10%;
-      margin-right:10%;
+  .essayheader h1 {
+    color: white;
+    text-shadow: 1px 1px blue;
   }
-
-  .generalHeader{
-      margin-left: 10%;
-      
-  }
-
-  .essayHeader{
-      margin-left: 25%;
-  }
-
-  .cited{
-      text-align: center;
-      
-      
-  }
-
-  .bottom{
-      position: fixed;
-      bottom: -16px;
-      text-align: right;
-      height: 30px;
-      width: 97%;
-      background-color: rgb(25, 25, 25);	    
-  }
-
-  .hanging{
-      padding: 10px;
-      padding-left: 64px;
-      text-indent: -60px;
-      margin-left: 25%;
-      margin-right: 25%;
-      line-height: 2;
-      
-  }
-
-  .centertxt{
-      text-align:center;
-  }
-
-  
-      
-  
-  
-      
-
+  .essayheader b {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 5px;
+    color: white;
+    text-shadow: 1px 1px blue;
+}
