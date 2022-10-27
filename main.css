@@ -82,3 +82,19 @@ h1 {
 }
 */
 /*Navigation Bar End*/
+.grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100px 100px;
+    width: 75vw;
+    height: 75vh;
+    overflow-y:auto;
+    background-color: rgba(211, 211, 211, 0.185);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    border-radius: 10px;
+    border-color: blue;
+    border-style: solid;
+    border-width: 2px;
+}
