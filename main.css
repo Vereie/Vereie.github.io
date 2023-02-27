@@ -140,11 +140,11 @@ h3 {
     border-style: solid;
     border-width: 2px;
     padding-bottom: 4vh;
-  /*  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet, red);
+   /* background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet, red);
     background-size: 200% auto;
     animation: color-change 5s infinite linear; */
   }
-/*  
+  /*
   @keyframes color-change {
     0% {
       background-position: 0% 0%;
@@ -153,7 +153,7 @@ h3 {
       background-position: -200% 0%;
     }
   }
-
+/*
 @keyframes color-change {
     0% {
       background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
@@ -177,4 +177,4 @@ h3 {
         background-image: linear-gradient(to right, orange, yellow, green, blue, indigo, violet, red);
     }
   }
-  */
+  
